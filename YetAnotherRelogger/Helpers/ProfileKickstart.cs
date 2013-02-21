@@ -17,7 +17,7 @@ It is used to ensure a profile starts without causing DB to choken it -->
     <Name>YAR Profile Kickstart: {profile}</Name>
     {gameparams}
         <Order>
-            <Kickstart Profile=""{profile_path}"" Delay=""{delay}""/>
+            <LoadProfile=""{profile_path}"" Delay=""{delay}""/>
         </Order>
     <KillMonsters>True</KillMonsters>
     <PickupLoot>True</PickupLoot>
